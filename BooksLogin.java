@@ -15,6 +15,8 @@ public class BooksLogin {
         if (question=='Y') {
             LoginPanel();
         }else {
+           BooksUserRecord.userrecordPanel();
+            LoginQuestion();
 
         }
     }
